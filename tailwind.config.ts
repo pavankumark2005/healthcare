@@ -12,8 +12,14 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'mobile-s': '320px',
+        'mobile-m': '375px',
+        'mobile-l': '425px',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
